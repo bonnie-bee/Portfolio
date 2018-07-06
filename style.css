@@ -1,0 +1,206 @@
+.nav-item{
+    text-align: right;
+}
+
+#name{
+    font-size: 1.8em;
+    color: black;
+}
+
+body{
+    background:white;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+/*.row{
+    background-color: rgba(0, 238, 255, .1);
+    }
+
+.theFirst{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.theLast{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}*/
+
+.indexContent{
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+a {
+    color: black;
+}
+
+.footer{
+    background: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+
+#name{
+    font-size: 1.8em;
+    color: black;
+}
+
+.nav-item{
+    text-align: right;
+}
+
+body{
+    background: white;
+}
+
+.container{
+    margin-top: 50px;
+}
+.row{
+    background: white;
+    text-align: center;
+    }
+
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#little{
+    font-size: 1em;
+}
+
+a {
+    color: black;
+}
+
+.footer{
+    background: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media screen and (max-width:1700px){
+
+
+    body{
+        background-image: url(../Assets/pinstripe.png)
+    }
+
+    .container{
+        margin-top: 50px;
+        background: rgba(128,128,128,0.2);
+        border-radius: 10px;
+    }
+
+    .row{
+        background: rgba(1,1,1,0);
+        }
+
+    .footer{
+        background: rgba(1,1,1,0);
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .circleInitial{
+        background-image: url(../Assets/hydrangea.jpg);
+        width: 250px;
+        height: 250px;
+        
+        border-radius: 50%;
+        color: white;
+        font-size: 3.2em;
+        line-height: 85%;
+        margin-top: 16%;
+        margin-left: 15%;
+    }
+
+    #circleName{
+        padding-top: 28%;
+        padding-left: 5%;
+        text-align: center;
+    }
+
+    .menu{
+        text-align: center;
+        margin-left: 27%;
+        padding-bottom: 8%;
+        background: rgba(1,1,1,0);
+    }
+    
+    .nav-item{
+        padding-top: 4%;
+        font-size: 1.5em;
+        color: black;
+        background: rgba(1,1,1,0);
+    }
+    
+    .contactForm{
+        margin-top: 8%;
+        background: rgba(1,1,1,0);
+    }
+}
+
+@media screen and (max-width:1045px){
+
+    .circleInitial{
+        margin-left: 8%;
+    }
+
+    .menu{
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .contactForm{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:770px){
+
+    .circleInitial{
+        margin-left: 7%;
+    }
+        
+    .menu{
+        text-align: center;
+        margin-left: 27%;
+    }
+}
+    
+
+@media screen and (max-width:430px){
+
+    .circleInitial{
+        margin-left: 33%
+    }
+}
+
+@media screen and (max-width:380px){
+
+    .circleInitial{
+        margin-left: 24%
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .circleInitial{
+        margin-left: 14%;
+    }
+}
+
+
