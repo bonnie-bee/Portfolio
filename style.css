@@ -1,15 +1,7 @@
 
-/* .nav-item{
-    text-align: right;
-}
-
-#name{
-    font-size: 1.8em;
-    color: black;
-}
 
 body{
-    background:white;
+    background:white;   
 }
 
 .container{
@@ -42,23 +34,12 @@ a {
     color: black;
 }
 
-.footer{
-    background: white;
-    margin-top: 5%;
-    text-align: center;
-}
 
 
 
 
-#name{
-    font-size: 1.8em;
-    color: black;
-}
 
-.nav-item{
-    text-align: right;
-}
+
 
 body{
     background: white;
@@ -86,13 +67,9 @@ a {
     color: black;
 }
 
-.footer{
-    background: white;
-    margin-top: 5%;
-    text-align: center;
-}
 
-@media screen and (max-width:1700px){
+
+/* @media screen and (max-width:1700px){
 
 
     body{
@@ -207,5 +184,109 @@ a {
 
 .stickHeader{
     position: fixed;
-    background-color: aqua;
+    z-index: 2;
+    width: 100vw;
+    text-align: center;
+    background-color: deeppink
+}
+
+.nav-link{
+    display: inline-block;
+    
+}
+
+#name{
+    color: white;
+    /* font-family: 'Shrikhand', cursive; */
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'BioRhyme Expanded', serif; */
+/* font-family: 'Homemade Apple', cursive; */
+
+/* font-family: 'Bungee Shade', cursive; */
+font-family: 'League Script', cursive;
+/* font-family: 'Dr Sugiyama', cursive; */
+/* font-family: 'Mr Bedfort', cursive; */
+font-weight: bolder;
+}
+
+#homepage{
+    width: 1700px;
+    height: 600px;
+    background-image: url(images/bluebonnet.png);
+
+}
+
+.frontImage{
+    align-content: center;
+}
+
+#index{
+    background-color: deeppink;
+    background-repeat: none;
+}
+
+#zoey{
+    background-color: lavender;
+}
+
+.theFirst{
+    background-color: rgba(1,1,1,.0)
+}
+
+.indexContent{
+    background-color: rgba(1,1,1,.0)
+}
+
+.carousel-item{
+    height: 550px;
+}
+
+.dogPic{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.pic1{
+    height: 300px;
+    width: 300px;
+    background-color: #adadad;
+}
+
+.pic2{
+    height: 300px;
+    width: 300px;
+    background-color: #807c7c;
+}
+
+.pic3{
+    height: 300px;
+    width: 300px;
+    background-color: #ebebeb;
+}
+
+.pic4{
+    height: 300px;
+    width: 300px;
+    background-color: #545454;
+}
+
+.pic5{
+    height: 300px;
+    width: 300px;
+    background-color: #ebebeb;
+}
+
+.pic6{
+    height: 300px;
+    width: 300px;
+    background-color: #adadad;
+}
+
+.contactForm{
+    margin-top: 10%;
+
+}
+.form-group{
+    text-align: right;
 }
