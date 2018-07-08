@@ -6,33 +6,21 @@ const pic5 = $('#birthdayZo')
 const pic6 = $('#napZo')
 
 
-
-setInterval(hidePic1, 4000)
-setInterval(hidePic2, 6000)
-setInterval(hidePic3, 5000)
-setInterval(hidePic4, 9000)
+setInterval(hidePic1, 5000)
+setInterval(hidePic2, 8000)
+setInterval(hidePic3, 3000)
+setInterval(hidePic4, 11000)
 setInterval(hidePic5, 10000)
 setInterval(hidePic6, 5000)
 
 
 
-setInterval(showPic1, 8000);
+setInterval(showPic1, 9000);
 setInterval(showPic2, 12000);
 setInterval(showPic3, 10000);
-setInterval(showPic4, 18000);
-setInterval(showPic5, 20000);
+setInterval(showPic4, 7000);
+setInterval(showPic5, 16000);
 setInterval(showPic6, 10000);
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -75,3 +63,21 @@ function hidePic5(){
 function hidePic6(){
     pic6.hide();
 }
+
+
+// $('#zoeyLink').querySelector('#zoey').scrollIntoView({ 
+//     behavior: 'smooth' 
+//   });
+
+
+
+
+
+
+
+
+
+
+
+
+  

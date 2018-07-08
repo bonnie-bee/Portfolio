@@ -30,8 +30,8 @@ p {
     font-size: 1.1em;
 }
 
-a {
-    color: black;
+.linkBtn{
+    color: darkblue;
 }
 
 
@@ -211,22 +211,33 @@ font-weight: bolder;
 
 #homepage{
     width: 1700px;
-    height: 600px;
-    background-image: url(images/bluebonnet.png);
-
+    height: 800px;
 }
 
 .frontImage{
-    align-content: center;
+    position: relative;
+    margin-left: 18%;
+    margin-top: 8%;
 }
 
 #index{
     background-color: deeppink;
     background-repeat: none;
+    height: 785px;
 }
 
 #zoey{
-    background-color: lavender;
+    background-color: #00c8ff;
+    height: 785px;
+}
+
+.zoBox{
+    background-color: rgba(300, 300, 300, .4);
+}
+
+.dogPics{
+    position: relative;
+    padding-left: 10%;
 }
 
 .theFirst{
@@ -241,6 +252,12 @@ font-weight: bolder;
     height: 550px;
 }
 
+#projectCarousel{
+    position: relative;
+    width: 80%;
+    margin-left: 10.5%;
+}
+
 .dogPic{
     display: inline-block;
     height: 300px;
@@ -250,37 +267,37 @@ font-weight: bolder;
 .pic1{
     height: 300px;
     width: 300px;
-    background-color: #adadad;
+    background-color: #00c0f5;
 }
 
 .pic2{
     height: 300px;
     width: 300px;
-    background-color: #807c7c;
+    background-color: #7ae2ff;
 }
 
 .pic3{
     height: 300px;
     width: 300px;
-    background-color: #ebebeb;
+    background-color: #00aede;
 }
 
 .pic4{
     height: 300px;
     width: 300px;
-    background-color: #545454;
+    background-color: #7adefa;
 }
 
 .pic5{
     height: 300px;
     width: 300px;
-    background-color: #ebebeb;
+    background-color: #43c4e8;
 }
 
 .pic6{
     height: 300px;
     width: 300px;
-    background-color: #adadad;
+    background-color: #00c0f5;
 }
 
 .contactForm{
@@ -289,4 +306,41 @@ font-weight: bolder;
 }
 .form-group{
     text-align: right;
+}
+
+#p1{
+    font-size: 2.5em;
+}
+#also{
+    font-size: 4em;
+}
+#imA{
+    font-size: 3em;
+}
+
+.letter{
+    display: inline-block;
+    font-size: 1em;
+}
+
+#contact{
+    height: 785px;
+    background-image: url(images/purpleCrystal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#portfolio{
+    height: 785px;
+    background-image: url(images/bluebonnet.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.contactDiv{
+    position: relative;
+    height: 600px;
+    margin-top: 10%;
+    background-color: rgba(300,300,300,.2)
 }
