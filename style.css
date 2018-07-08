@@ -255,7 +255,9 @@ font-weight: bolder;
     border-radius: 5px;
 }
 
-
+.contactWords{
+    font-size: 2em;
+}
 
 #projectCarousel{
     position: relative;
@@ -347,5 +349,5 @@ font-weight: bolder;
     position: relative;
     height: 600px;
     margin-top: 10%;
-    background-color: rgba(300,300,300,.2)
+    background-color: rgba(300,300,300,.4)
 }
