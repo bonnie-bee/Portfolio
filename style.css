@@ -248,9 +248,14 @@ font-weight: bolder;
     background-color: rgba(1,1,1,.0)
 }
 
-.carousel-item{
-    height: 550px;
+.carouselWords{
+    color: black;
+    font-weight: bold;
+    background-color: rgba(300, 300, 300, .5);
+    border-radius: 5px;
 }
+
+
 
 #projectCarousel{
     position: relative;
