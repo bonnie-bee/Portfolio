@@ -1,3 +1,18 @@
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD44UsYQIDfL_LWagMK6Rg7fpsFLbE72Mw",
+    authDomain: "site-messages.firebaseapp.com",
+    databaseURL: "https://site-messages.firebaseio.com",
+    projectId: "site-messages",
+    storageBucket: "",
+    messagingSenderId: "985516686707"
+  };
+  firebase.initializeApp(config);
+
+
+
+
 const pic1 = $('#zoAndMe')
 const pic2 = $('#halloweenZo')
 const pic3 = $('#parkZo')
@@ -65,9 +80,34 @@ function hidePic6(){
 }
 
 
-// $('#zoeyLink').querySelector('#zoey').scrollIntoView({ 
-//     behavior: 'smooth' 
-//   });
+
+
+
+
+$('#subBtn').on('click', function(){
+    const database = firebase.database().ref();
+const userName = $('#nameEntry');
+const userEmail = $('#emailEntry');
+const userMessage = $('#textEntry');
+    console.log(userName, userEmail, userMessage)
+    event.preventDefault();
+    database.push({
+        Name: userName.val(),
+        Email: userEmail.val(),
+        Message: userMessage.val()
+    });
+    userName.empty();
+    userEmail.empty();
+    userMessage.empty();
+
+    let successMes = (`<p id="youDidIt">Thank you ${userName.val().trim()}! Your message was sent.</p>`)
+
+    $('#contactForm').append(successMes);
+
+})
+
+
+
 
 
 
