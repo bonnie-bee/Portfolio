@@ -85,24 +85,28 @@ function hidePic6(){
 
 
 $('#subBtn').on('click', function(){
+    event.preventDefault();
     const database = firebase.database().ref();
 const userName = $('#nameEntry');
 const userEmail = $('#emailEntry');
 const userMessage = $('#textEntry');
-    console.log(userName, userEmail, userMessage)
-    event.preventDefault();
     database.push({
         Name: userName.val(),
         Email: userEmail.val(),
-        Message: userMessage.val()
+        Message: userMessage.val(),
     });
-    userName.empty();
-    userEmail.empty();
-    userMessage.empty();
 
     let successMes = (`<p id="youDidIt">Thank you ${userName.val().trim()}! Your message was sent.</p>`)
-
     $('#contactForm').append(successMes);
+
+    userName.val("");
+    userEmail.val("");
+    userMessage.val("");
+
+    
+
+    
+
 
 })
 
